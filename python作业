@@ -1,0 +1,172 @@
+##第一个场景,写狗
+class Dog:
+    #狗的属性，毛是黑的，四条腿，两只眼睛，两只耳朵
+    # 狗会吃，会跑，会叫，会睡
+    color = "red"
+    leg  = 4
+    eye = 2
+    ear =2
+ #定义方法，使用def关键字定义,在类外叫函数，在类内叫方法
+    def eat(self):
+        print("狗在吃")
+    def run(self):
+        print("狗在跑")
+    def cry(self):
+        print("狗在叫")
+    def sleep(self):
+        print("狗在睡")
+print(Dog.color)
+print(Dog.leg)
+print(Dog.eye)
+print(Dog.ear)
+#类的实列化
+dog = Dog()
+dog.eat()
+dog.run()
+dog.cry()
+dog.sleep()
+
+
+
+##第二个场景写鸭子
+#定义类
+class Duck:
+    # 属性,颜色是白的,两条腿,嘴巴大,毛是软的,
+    # 会跑,会叫,会游泳,会吃,会睡觉
+    color = "white"
+    leg = 2
+    mouse = "big"
+    hair = "soft"
+#使用def定义方法,在类内叫方法,在类外叫函数
+    def run(self):
+        print("鸭在跑")
+    def cry(self):
+        print("鸭在叫")
+    def swim(self):
+        print("鸭在游泳")
+    def eat(self):
+        print("鸭在吃")
+    def sleep(self):
+        print("鸭在睡")
+print(Duck.color)
+print(Duck.leg)
+print(Duck.mouse)
+print(Duck.hair)
+
+#类的实例化
+duck = Duck()
+duck.run()
+duck.cry()
+duck.swim()
+duck.eat()
+duck.sleep()
+
+
+
+###第三个场景写乌龟
+#定义一个类,乌龟,首字母要大写
+class Tortoise:
+    #描述乌龟的属性,四条腿,一个头,壳是硬的,颜色是绿色的
+    #会爬,会游泳,会喝水,会睡觉
+    leg = 4
+    head =1
+    color = "greed"
+    outershell = "hard"
+#用def定义方法,在类叫方法,类外叫函数
+    def climb(self):
+        print("乌龟在爬")
+    def swim(self):
+        print("乌龟在游泳")
+    def drink(self):
+        print("乌龟在喝水")
+    def sleep(self):
+        print("乌龟在睡觉")
+print("leg")
+print("head")
+print("color")
+print("outershell")
+#类的实例化
+tortoise = Tortoise()
+tortoise.climb()
+tortoise.swim()
+tortoise.drink()
+tortoise.sleep()
+
+
+##第四个场景写小龙女
+class XiaoLongNv:
+    #描述小龙女的属性,外貌是漂亮的,身高是1.70,体重98,hair又黑又长,眼睛大,皮肤白
+    # 会fight,会飞,会跑,会读书,会画画,会笑,会哭
+    appearance ="pretty"
+    height = 170
+    weight = 98
+    hair = "black and long"
+    eye = "big"
+    skin = "white"
+#定义小龙女的方法,用def,在类内叫方法,类外叫函数
+    def fight(self):
+        print("小龙女在打架")
+    def fly(self):
+        print("小龙女在飞")
+    def run(self):
+        print("小龙女在跑")
+    def read(self):
+        print("小龙女在读书")
+    def draw(self):
+        print("小龙女在画画")
+    def smile(self):
+        print("小龙女在笑")
+    def cry(self):
+        print("小龙女在哭")
+print("appearance")
+print("height")
+print("weight")
+print("hair")
+print("eye")
+print("skin")
+#类的定例化
+xiaolongnv = XiaoLongNv()
+xiaolongnv.fight()
+xiaolongnv.fly()
+xiaolongnv.run()
+xiaolongnv.read()
+xiaolongnv.draw()
+xiaolongnv.smile()
+xiaolongnv.cry()
+
+
+
+##第五个场景写杨过
+#定义一个类,杨过
+class YangGuo:
+    #定义他的属性,身高180,体重160,皮肤黑,身体强壮
+    #他会打,会喝酒,会睡觉,会飞,会吃饭,会玩
+    height = 180
+    weight = 160
+    skin = "black"
+    body = "strong"
+#用def 定义他的方法
+    def fight(self):
+        print("他在打架")
+    def drink(self):
+        print("他在喝洒")
+    def sleep(self):
+        print("他在睡觉")
+    def fly(self):
+        print("他在飞")
+    def eat(self):
+        print("他在吃饭")
+    def play(self):
+        print("他在玩")
+print("height")
+print("weight")
+print("skin")
+print("body")
+#类的实例化
+yangguo = YangGuo()
+yangguo. fight()
+yangguo. drink()
+yangguo. sleep()
+yangguo. fly()
+yangguo. eat()
+yangguo. play()
